@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none !important;
+}
+
+/* TAMBAHKAN BLOK KODE INI DI ATAS */
+@layer base {
+    html {
+        font-size: 14px; /* Defaultnya adalah 16px, kita kecilkan */
+    }
+}

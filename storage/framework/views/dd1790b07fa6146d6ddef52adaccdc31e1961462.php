@@ -1,0 +1,48 @@
+<?php if (isset($component)) { $__componentOriginal8e2ce59650f81721f93fef32250174d77c3531da = $component; } ?>
+<?php $component = $__env->getContainer()->make(App\View\Components\AppLayout::class, []); ?>
+<?php $component->withName('app-layout'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php $component->withAttributes([]); ?>
+     <?php $__env->slot('header', null, []); ?> 
+        
+        <?php if (isset($component)) { $__componentOriginal031b70f77448d6d2b1e9e96d77e7e66748a7c1aa = $component; } ?>
+<?php $component = $__env->getContainer()->make(App\View\Components\Breadcrumbs::class, ['links' => ['Usul Pindah' => route('usul-pindah.index')]]); ?>
+<?php $component->withName('breadcrumbs'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php $component->withAttributes(['icon' => 'musnah']); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal031b70f77448d6d2b1e9e96d77e7e66748a7c1aa)): ?>
+<?php $component = $__componentOriginal031b70f77448d6d2b1e9e96d77e7e66748a7c1aa; ?>
+<?php unset($__componentOriginal031b70f77448d6d2b1e9e96d77e7e66748a7c1aa); ?>
+<?php endif; ?>
+     <?php $__env->endSlot(); ?>
+
+    <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+        <div class="p-6 bg-white border-b border-gray-200">
+            
+            <?php
+if (! isset($_instance)) {
+    $html = \Livewire\Livewire::mount('usulan-pindah-list')->html();
+} elseif ($_instance->childHasBeenRendered('mbbS9v9')) {
+    $componentId = $_instance->getRenderedChildComponentId('mbbS9v9');
+    $componentTag = $_instance->getRenderedChildComponentTagName('mbbS9v9');
+    $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
+    $_instance->preserveRenderedChild('mbbS9v9');
+} else {
+    $response = \Livewire\Livewire::mount('usulan-pindah-list');
+    $html = $response->html();
+    $_instance->logRenderedChild('mbbS9v9', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+}
+echo $html;
+?>
+        </div>
+    </div>
+ <?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal8e2ce59650f81721f93fef32250174d77c3531da)): ?>
+<?php $component = $__componentOriginal8e2ce59650f81721f93fef32250174d77c3531da; ?>
+<?php unset($__componentOriginal8e2ce59650f81721f93fef32250174d77c3531da); ?>
+<?php endif; ?><?php /**PATH D:\MAGANG\sistem-kearsipan-bbpom\resources\views/usul-pindah/index.blade.php ENDPATH**/ ?>

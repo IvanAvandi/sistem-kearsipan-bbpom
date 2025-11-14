@@ -1,0 +1,15 @@
+<?php return array (
+  'admin.bentuk-naskah-table' => 'App\\Http\\Livewire\\Admin\\BentukNaskahTable',
+  'admin.klasifikasi-table' => 'App\\Http\\Livewire\\Admin\\KlasifikasiTable',
+  'admin.link-terkait-table' => 'App\\Http\\Livewire\\Admin\\LinkTerkaitTable',
+  'admin.template-table' => 'App\\Http\\Livewire\\Admin\\TemplateTable',
+  'admin.user-table' => 'App\\Http\\Livewire\\Admin\\UserTable',
+  'admin.usulan-pemusnahan-show' => 'App\\Http\\Livewire\\Admin\\UsulanPemusnahanShow',
+  'admin.usulan-pemusnahan-table' => 'App\\Http\\Livewire\\Admin\\UsulanPemusnahanTable',
+  'admin.usulan-pindah-show' => 'App\\Http\\Livewire\\Admin\\UsulanPindahShow',
+  'admin.usulan-pindah-table' => 'App\\Http\\Livewire\\Admin\\UsulanPindahTable',
+  'arsip-table' => 'App\\Http\\Livewire\\ArsipTable',
+  'pusat-template' => 'App\\Http\\Livewire\\PusatTemplate',
+  'usulan-pindah-list' => 'App\\Http\\Livewire\\UsulanPindahList',
+  'usulan-pindah-show' => 'App\\Http\\Livewire\\UsulanPindahShow',
+);
